@@ -1,8 +1,8 @@
-import './styles/eisenhower.css';
-import './styles/App.css';
-import './styles/task.css';
-import { ITaskBoxProps } from './components/TaskBox';
-import EisenhowerBox from './components/EisenhowerBox';
+import '../../styles/eisenhower.css';
+import '../../styles/App.css';
+import '../../styles/task.css';
+import { ITaskBoxProps } from '../../components/TaskBox';
+import EisenhowerBox from '../../components/EisenhowerBox';
 
 export default function App() {
   const taskBox0: ITaskBoxProps[] = [
