@@ -1,0 +1,15 @@
+.eisenhower-box-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    width: 50vw;
+    height: 100vh;
+}
+
+.eisenhower-box {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%/4;
+    height: 100%/4;
+}
