@@ -1,0 +1,30 @@
+.eisenhower-box > .task {
+    position: relative;
+    padding: 0em 1em;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #ccc;
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+}
+
+.eisenhower-box > .task > .task-details {
+    padding: 3em 1em;
+
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center; /* Align horizontal */
+    align-items: center; /* Align vertical */
+}
+
+.eisenhower-box > .task > .task-details > .task-description {
+    margin: 0;
+}
+
+.task .task-body {
+    display: inline-block;
+}
