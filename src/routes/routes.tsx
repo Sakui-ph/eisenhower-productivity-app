@@ -1,21 +1,12 @@
-import { createBrowserRouter } from 'react-router-dom';
-import App from '../pages/mainPage/App';
+import { RouteObject } from 'react-router-dom';
 import Test from '../pages/testPage/Test';
 import Filler from '../pages/fillerPage/Filler';
+import Main from '../pages/mainPage/Main';
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App></App>,
-  },
-  {
-    path: '/test',
-    element: <Test></Test>,
-  },
-  {
-    path: '/filler',
-    element: <Filler></Filler>,
-  },
-]);
+const routes: RouteObject[] = [
+  { index: true, element: <Main /> },
+  { path: '/test', element: <Test /> },
+  { path: '/filler', element: <Filler /> },
+];
 
-export default router;
+export default routes;

@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "ssr-boost dev",
+    "build": "ssr-boost build",
+    "start:ssr": "ssr-boost start",
+    "start:spa": "ssr-boost start --only-client",
+    "preview": "ssr-boost preview"
   },
   "dependencies": {
     "@lomray/vite-ssr-boost": "^3.3.1",
