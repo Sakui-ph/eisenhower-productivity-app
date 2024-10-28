@@ -4,7 +4,7 @@ import './styles/task.css';
 import { ITaskBoxProps } from './components/TaskBox';
 import EisenhowerBox from './components/EisenhowerBox';
 
-function App() {
+export default function App() {
   const taskBox0: ITaskBoxProps[] = [
     { isChecked: true, taskDescription: 'minecraft' },
     { isChecked: false, taskDescription: 'fortnite' },
@@ -20,5 +20,3 @@ function App() {
     </>
   );
 }
-
-export default App;
