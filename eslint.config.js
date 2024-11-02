@@ -11,6 +11,14 @@ const tseslintConfig = tseslint.config(
     extends: [
       js.configs.recommended,
       ...tseslint.configs.strictTypeChecked,
+      {
+        languageOptions: {
+          parserOptions: {
+            projectService: true,
+            tsconfigRootDir: import.meta.dirname,
+          },
+        },
+      },
       eslintConfigPrettier,
     ],
     files: ['**/*.{ts,tsx,css}'],

@@ -5,7 +5,7 @@ export interface ITaskBoxProps {
 
 export default function TaskBox(props: ITaskBoxProps) {
   const description: string = props.taskDescription;
-  let isChecked: boolean = props.isChecked;
+  const isChecked: boolean = props.isChecked;
 
   return (
     <div className="task">

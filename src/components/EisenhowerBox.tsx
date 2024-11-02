@@ -5,7 +5,7 @@ interface IEisenhowerGridProps {
 }
 
 export default function EisenhowerBox(props: IEisenhowerGridProps) {
-  let taskBoxData = props.taskBoxData;
+  const taskBoxData = props.taskBoxData;
   return (
     <div className="eisenhower-box">
       {taskBoxData != null ? (
