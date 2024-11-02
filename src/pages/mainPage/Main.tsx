@@ -1,7 +1,5 @@
 import '../../styles/eisenhower.css';
-import '../../styles/App.css';
 import '../../styles/task.css';
-import '../../styles/index.css';
 import { ITaskBoxProps } from '../../components/TaskBox';
 import EisenhowerBox from '../../components/EisenhowerBox';
 

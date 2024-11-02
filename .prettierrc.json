@@ -7,7 +7,29 @@
     {
       "files": ["*.css"],
       "options": {
-        "tabWidth": 4
+        "tabWidth": 4,
+        "semi": true
+      }
+    },
+    {
+      "files": ["*.tsx"],
+      "options": {
+        "tabWidth": 2,
+        "semi": true,
+        "parser": "babel-ts"
+      }
+    },
+    {
+      "files": ["*.mts", "*.cts", "*.ts"],
+      "options": {
+        "parser": "babel-ts"
+      }
+    },
+
+    {
+      "files": ["*.json", "*.jsonc", "*.json5"],
+      "options": {
+        "parser": "json5"
       }
     }
   ]

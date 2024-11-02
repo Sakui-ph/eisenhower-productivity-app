@@ -1,0 +1,28 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+* {
+    outline: solid 1px green;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-theme-color);
+}
+
+.dark-theme {
+    --background: #1f1f1f;
+    --text-theme-color: rgb(235, 235, 235);
+}
+
+.light-theme {
+    --background: rgb(235, 235, 235);
+    --text-theme-color: #1f1f1f;
+}

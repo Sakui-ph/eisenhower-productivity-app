@@ -9,7 +9,7 @@ export default function TaskBox(props: ITaskBoxProps) {
 
   return (
     <div className="task">
-      <input type="checkbox" checked={isChecked}></input>
+      <input type="checkbox" defaultChecked={isChecked}></input>
       <div className="task-details">
         <span className="task-description">{description}</span>
       </div>
