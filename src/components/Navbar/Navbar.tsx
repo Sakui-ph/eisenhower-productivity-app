@@ -1,18 +1,16 @@
-import '../../styles/Navbar.css';
+import { Outlet } from 'react-router-dom';
+import './styles/navbar.css';
 
 export default function Navbar() {
   return (
-    <div className="navbar">
-      <nav>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/test">Test</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <>
+      <div className="navbar">
+        <nav>
+          <a href="/">Home</a>
+          <a href="/test">Test</a>
+        </nav>
+      </div>
+      <Outlet />
+    </>
   );
 }

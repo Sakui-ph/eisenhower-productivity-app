@@ -8,10 +8,6 @@
     box-sizing: inherit;
 }
 
-* {
-    outline: solid 1px green;
-}
-
 body {
     background-color: var(--background);
     color: var(--text-theme-color);
