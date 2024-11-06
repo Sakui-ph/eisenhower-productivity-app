@@ -3,8 +3,26 @@
     flex-direction: row;
     gap: 1em;
     list-style: none;
+    margin: 0 0 0 0;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.navbar {
+    border-bottom: solid 1px white;
+    margin-bottom: 5vh;
 }
 
 .navbar a {
-    display: inline;
+    display: block;
+    margin: 0 0 0 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 1vw;
+}
+
+.navbar-link {
+    text-align: center;
+    background-color: rgb(1, 1, 1);
 }

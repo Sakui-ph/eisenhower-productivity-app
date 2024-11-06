@@ -6,8 +6,12 @@ export default function Navbar() {
     <>
       <div className="navbar">
         <nav>
-          <a href="/">Home</a>
-          <a href="/test">Test</a>
+          <div className="navbar-link">
+            <a href="/">Home</a>
+          </div>
+          <div className="navbar-link">
+            <a href="/test">Test</a>
+          </div>
         </nav>
       </div>
       <Outlet />
