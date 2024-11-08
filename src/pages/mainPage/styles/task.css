@@ -1,4 +1,4 @@
-.eisenhower-box > .task {
+.task {
     position: relative;
     padding: 0em 1em;
     display: flex;
@@ -7,6 +7,7 @@
     width: 100%;
     height: 20%;
     box-sizing: border-box;
+    user-select: none;
 }
 
 .eisenhower-box > .task > .task-details {
